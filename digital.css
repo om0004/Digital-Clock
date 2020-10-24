@@ -1,0 +1,107 @@
+body{
+	background-color:#41B3A3;
+}
+h1{
+	text-align:center;
+	margin-top:5%;
+	font-size:90px;
+	font-family: 'Orbitron', sans-serif;
+	color:black;
+}
+#outerdiv{
+	background-color:white;
+	width: 50%;
+	margin:auto;
+	height:auto;
+	
+}
+.common{
+	position:relative;
+	height:27%;
+	width:11%;
+	float:left;
+}
+
+#hh{
+	background-color:white;
+	margin-left:30%;
+	
+}
+#mm{
+	background-color:white;
+	margin-left:4%;
+}
+#ss{
+	background-color:#e43e6f;
+	float:left;
+	margin-left:4%;
+}
+span{
+	position:relative;
+	padding:15% 11%;
+	display:block;
+	font-size:80px;
+	font-family: 'Orbitron', sans-serif;
+	color:black;
+}
+p{
+	text-align:center;
+	font-size:20px;
+}
+.des{
+	background-color:black;
+	color:white;
+	height:30%;
+}
+
+@media (max-width:1298px){
+    body{background:#41B3A3}
+    h1{font-size:75px;
+    	margin-top:8%;}
+    span{
+    	padding:15% 10%;
+    	font-size:70px;}
+    p{font-size:18px;}
+    .common{
+	height:26%;
+	width:11%;}
+}
+@media (max-width:1150px){
+    body{background:#41B3A3}
+    h1{font-size:70px;
+    	margin-top:10%;}
+    span{
+    	padding:15% 10%;
+    	font-size:60px;}
+    p{font-size:16px;}
+    .common{
+	height:22.5%;
+	width:11%;}
+}
+@media (max-width:1034px){
+    body{background:#41B3A3}
+    h1{font-size:55px;
+    	margin-top:14%;}
+    span{
+    	padding:15% 9%;
+    	font-size:50px;}
+    p{font-size:15px;}
+    .common{
+	height:19%;
+	width:11%;}
+}
+@media (max-width:843px){
+    body{background:#41B3A3}
+    h1{font-size:50px;
+    	margin-top:19%;}
+    span{
+    	padding:15% 8%;
+    	font-size:40px;}
+    p{font-size:15px;}
+    .common{
+	height:16%;
+	width:11%;}
+}
+
+
+
