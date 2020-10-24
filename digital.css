@@ -102,6 +102,15 @@ p{
 	height:16%;
 	width:11%;}
 }
-
-
-
+@media (max-width:380px){
+    body{background:#41B3A3}
+    h1{font-size:25px;
+    	margin-top:23%;}
+    span{
+    	padding:15% 6%;
+    	font-size:35px;}
+    p{font-size:15px;}
+    .common{
+	height:12%;
+	width:11%;}
+}
